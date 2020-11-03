@@ -1,0 +1,232 @@
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.navbar {
+    background-image: url("/C:/Users/Dell/Desktop/CODE/latextwo.png");
+    background-size: cover; 
+    text-decoration: none;
+    height: 300px;
+    border-bottom: 2px solid black;
+    
+    
+    
+
+    
+        background-attachment: fixed;
+        scroll-behavior: smooth;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -9px;
+}
+
+.bear {
+    display: block;
+    margin: auto;
+    height: 160px;
+    width: 128px;
+    position: absolute;
+    opacity: 85%;
+}
+
+.navbar-brand {
+    margin-top: 300px;
+    margin-bottom: 2px;
+    float: left;
+    font-size: 70px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+/* ///// */
+
+.btn-two {
+    text-decoration: none;
+    margin-top: 200px;
+    margin-right: 50%;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+    position: absolute; 
+   
+}
+.btn-two span {
+    z-index: 2; 
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+}
+.btn-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    /* background-color: rgba(255,255,255,0.1); */
+}
+.btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    /* background-color: rgba(255,255,255,0.1); */
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgb(0, 0, 0);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgb(0, 0, 0);
+  border-color: black;
+}
+
+/* /////////////////////////// */
+
+
+.btn-three {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 100px;
+    margin-top: 200px;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+    position: absolute; 
+}
+.btn-three span {
+    z-index: 2; 
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+}
+.btn-three::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    /* background-color: rgba(255,255,255,0.1); */
+}
+.btn-three::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    /* background-color: rgba(255,255,255,0.1); */
+}
+.btn-three:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgb(0, 0, 0);
+}
+.btn-three:hover::after {
+  transform: rotate(45deg);
+  /* color: rgb(255, 0, 119); */
+  background-color: rgb(0, 0, 0);
+  border-color: black;
+}
+
+
+
+.btn-four {
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 200px;
+    margin-top: 200px;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+    position: absolute; 
+}
+.btn-four span {
+    z-index: 2; 
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+}
+.btn-four::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    /* background-color: rgba(255,255,255,0.1); */
+}
+.btn-four::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    /* background-color: rgba(255,255,255,0.1); */
+}
+.btn-four:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgb(0, 0, 0);
+}
+.btn-four:hover::after {
+  transform: rotate(45deg);
+  background-color: rgb(0, 0, 0);
+  border-color: black;
+}
+ 
+/* .image1 {
+    background-image: url("/C:/Users/Dell/Desktop/MOOD2.PNG");
+    
+    height: 400px;
+
+    background-attachment: fixed;
+        scroll-behavior: smooth;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+} */
+.image1 {
+    
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+        scroll-behavior: smooth;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.image2 {
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+        scroll-behavior: smooth;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
