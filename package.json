@@ -1,0 +1,17 @@
+{
+  "name": "gummy",
+  "version": "1.0.0",
+  "description": "Single page product showcase site",
+  "main": "index.js",
+  "scripts": {
+    "test": "/"
+  },
+  "author": "Daniel Murphy",
+  "license": "ISC",
+  "dependencies": {
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.1",
+    "image-zoom-on-hover": "^1.0.0",
+    "js-image-zoom": "^0.7.0"
+  }
+}

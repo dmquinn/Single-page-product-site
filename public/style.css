@@ -1,0 +1,141 @@
+@font-face {
+	font-family: "Giorgio-Thin";
+	src: url("Giorgio-Thin.eot");
+	src: url("Giorgio-Thin.eot?#iefix") format("embedded-opentype"),
+		url("Giorgio-Thin.woff") format("woff"),
+		url("fonts/Gieorgio-Thin.ttf") format("truetype"),
+		url("fonts/Giorgio-Thin.svg#Giorgio-Thin") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	position: relative;
+	overflow-x: hidden;
+}
+.navbar {
+	background-color: rgb(0, 0, 0) !important;
+	height: 60px;
+}
+.bearBrand {
+	filter: brightness(110%);
+	height: 35px;
+}
+.gummyLogo {
+	position: relative;
+	height: 100px;
+	filter: hue-rotate(10deg) opacity(100%);
+}
+.nav-link {
+	color: rgb(255, 255, 255) !important;
+	font-size: 0.9rem;
+	font-weight: bold;
+	letter-spacing: 2.2px;
+	transition: 0.4s;
+	font-family: "Roboto", sans-serif;
+}
+.nav-link:hover {
+	color: rgb(192, 72, 192) !important;
+	transition: 0.4s;
+}
+.brandName,
+.rubberTitle {
+	color: rgb(80, 80, 80);
+	font-weight: 600;
+	font-family: "Giorgio-Thin";
+	letter-spacing: 10px;
+}
+.headerImg {
+	width: 100%;
+	height: 80vh;
+	object-fit: cover;
+}
+.shopNow {
+	position: relative;
+	font-weight: 900;
+	background: black;
+	color: white;
+	font-size: 20px;
+	font-family: "Giorgio-Thin";
+	border: none;
+	padding: 10px;
+	letter-spacing: 1.9px;
+	border: 0.5px solid rgb(0, 0, 0);
+}
+.handmade {
+	width: 20%;
+	padding: 10px;
+	background-color: rgb(187, 59, 187);
+	color: rgb(243, 211, 255);
+	position: relative;
+	bottom: 130px;
+	left: 70px;
+	font-weight: bold;
+}
+.shopNow:hover {
+	background-color: white;
+	color: black;
+	border: 0.5px solid rgb(83, 83, 83);
+	transition: 0.3s;
+}
+.innerImg {
+	bottom: 130px;
+	left: 70px;
+}
+.img-fluid {
+	border: none;
+	object-fit: cover;
+	height: 600px;
+	filter: brightness(90%) contrast(110%);
+}
+.img-fluid:hover {
+	filter: brightness(80%);
+}
+.img-fluid .two {
+	border: none;
+	object-fit: cover;
+	height: 400x;
+	max-width: 100%;
+	filter: brightness(90%);
+}
+p,
+h5,
+h3,
+ul,
+.handmade,
+.instaText {
+	letter-spacing: 0.9px;
+	font-family: "Roboto", sans-serif;
+}
+h3 {
+	font-family: "Giorgio-Thin";
+	font-weight: bold;
+}
+.aboutSection {
+	padding: 25px;
+}
+.latexCare {
+	list-style: none; /* Remove default bullets */
+}
+.latexCare li {
+	border-bottom: 1px solid rgb(158, 158, 158);
+	padding-bottom: 10px;
+}
+.latexCare li::before {
+	content: "\2022";
+	color: rgb(185, 79, 180);
+	font-weight: bold;
+	display: inline-block;
+	width: 2em;
+	margin-left: -2em;
+}
+.insta {
+	padding-bottom: 40px;
+}
+@media (max-width: 400px) {
+	.img-fluid {
+		margin-left: 15px;
+	}
+}
