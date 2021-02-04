@@ -14,6 +14,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.get("/", (req, res) => {
 	res.render("home");
 });
+app.get("/latexCare", (req, res) => {
+	res.render("latexCare");
+});
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
