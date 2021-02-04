@@ -69,7 +69,7 @@ body {
 .handmade {
 	width: 20%;
 	padding: 10px;
-	background-color: rgb(187, 59, 187);
+	background-color: rgba(187, 59, 187, 0.774);
 	color: rgb(243, 211, 255);
 	position: relative;
 	bottom: 130px;
@@ -140,11 +140,28 @@ h3 {
 	width: 2em;
 	margin-left: -2em;
 }
+.bear {
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	opacity: 80%;
+}
 .insta {
 	padding-bottom: 40px;
 }
 @media (max-width: 400px) {
 	.img-fluid {
 		margin-left: 15px;
+	}
+	.nav-link {
+		border: 8px solid white;
+		background: white;
+		/* width: 110%; */
+	}
+}
+
+@media (max-width: 400px) {
+	.bear {
+		visibility: hidden;
 	}
 }
