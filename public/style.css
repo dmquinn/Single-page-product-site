@@ -151,16 +151,21 @@ h3 {
 }
 @media (max-width: 400px) {
 	.img-fluid {
-		margin-left: 15px;
+		padding-top: 10px;
 	}
+	.brandName,
+	.rubberTitle {
+		transform: scale(0.8);
+	}
+
 	.nav-link {
 		border: 8px solid white;
 		background: white;
 		/* width: 110%; */
 	}
-}
-
-@media (max-width: 400px) {
+	.handmade {
+		width: 50%;
+	}
 	.bear {
 		visibility: hidden;
 	}
