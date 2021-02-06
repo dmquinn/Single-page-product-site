@@ -135,6 +135,14 @@ h3 {
 	font-weight: bold;
 	font-size: 19px;
 }
+.show,
+.show a {
+	font-weight: bold;
+	padding: 5px;
+	padding-left: 10px;
+	text-decoration: none;
+	color: black !important;
+}
 .latexCare {
 	list-style: none; /* Remove default bullets */
 	font-weight: bold;
